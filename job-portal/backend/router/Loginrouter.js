@@ -4,7 +4,7 @@ const express = require('express');
 const Loginrouter = express.Router();
 const mysql = require('mysql');
 const bcrypt = require('bcrypt');
-const { connect } = require('../../Candidate/Backend/Loginrouter');
+const { connect } = require('../../../Candidate/Backend/Loginrouter');
 
 // createpool is used for application grade in mysql server
 const db = mysql.createPool({

@@ -63,7 +63,7 @@ const Dashboard = () => {
               <img src="../images/cv.png" alt="" className="img-dashboard" />
             </div>
             <div className="fun-fact-text">
-              <h4>152</h4>
+              <h4>500</h4>
               <span>Total Application</span>
             </div>
           </div>
@@ -76,10 +76,10 @@ const Dashboard = () => {
               />
             </div>
             <div className="fun-fact-text">
-              <h4>549</h4>
-              <span>Interview</span>
+              <h4>500</h4>
+              <span> Total Interview</span>
             </div>
-          </div>
+          </div> 
           <div className="fun-fact" data-fun-fact-color="#0fc5bf">
             <div className="fun-fact-icon">
               <img
@@ -89,8 +89,8 @@ const Dashboard = () => {
               />
             </div>
             <div className="fun-fact-text">
-              <h4>120</h4>
-              <span>Subscribe Plan</span>
+              <h4>200</h4>
+              <span>Selected</span>
             </div>
           </div>
           <div className="fun-fact" data-fun-fact-color="#f02727">
@@ -102,9 +102,10 @@ const Dashboard = () => {
               />
             </div>
             <div className="fun-fact-text">
-              <h4>2250</h4>
-              <span>Month Views</span>
+              <h4>200</h4>
+              <span>Rejected</span>
             </div>
+            
           </div>
         </div>
 

@@ -25,6 +25,8 @@ import View_Job_Posting from "./components/View_Job_Posting";
 import Update_Job_Posting from "./components/Update_Job_Posting";
 import { Router, Routes, Route, useNavigate } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
+import Assesment from "./components/Assesment";
+
 
 function App() {
  return (
@@ -53,6 +55,7 @@ function App() {
           <Route path="/MailReminderSetting" element={<MailReminderSetting />} />
           <Route path="/WalletPlanView" element={<WalletPlanView />} />
           <Route path="/PaymentReminder" element={<PaymentReminder />} />
+          <Route path="/Assesment" element ={<Assesment/>} />
         </Routes>
       </div>
     </div>

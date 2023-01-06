@@ -127,6 +127,11 @@ const SideBar = () => {
                       <RiWallet2Line className="icons-1" /> Payment Reminder
                     </Link>
                   </li>
+                  <li id="sidebarToggle13">
+                    <Link to="Assesment">
+                      <RiWallet2Line className="icons-1" /> Assesment
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
